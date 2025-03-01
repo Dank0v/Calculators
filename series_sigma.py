@@ -16,7 +16,7 @@ def calculate_uncertainty(*args):
             r_eq_var.set("N/A")
             sigma_r_eq_var.set("N/A")
             return
-        
+
         # Calculate equivalent resistance
         R_eq = R1 + R2
         
